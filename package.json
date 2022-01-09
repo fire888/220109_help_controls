@@ -1,0 +1,28 @@
+{
+  "name": "bridge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpackConfig/webpackProd.js",
+    "start": "webpack-dev-server --open --config webpackConfig/webpackDev.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^4.3.0",
+    "file-loader": "^6.1.0",
+    "html-webpack-plugin": "^4.5.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.1.4"
+  },
+  "resolutions": {
+    "minimist": "^1.2.3"
+  },
+  "dependencies": {
+    "three": "^0.136.0"
+  }
+}
